@@ -1,0 +1,23 @@
+{
+  "name": "favortie-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
+    "express": "4.17.3",
+    "request": "^2.88.2",
+    "sqlite3": "5.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/favortie-app.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
