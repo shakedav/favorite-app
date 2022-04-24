@@ -1,0 +1,48 @@
+
+header, .row {
+  display: flex;
+  align-items: center;
+}
+
+.col {
+  flex: 1;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.star {
+  max-width: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.art {
+  max-width: 100px;
+}
+
+img {
+  margin-right: 20px;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  flex: 0;
+}
+
+.starred{
+  background-color: yellow;
+}
+
+.unstarred{
+  background-color: grey;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,19 @@
+<div class="container">
+  <header>
+    <div class="col star">Favorite</div>
+    <div class="col art">Album Art</div>
+    <div class="col">Artist Name</div>
+    <div class="col">Album Name</div>
+  </header>
+  <div class="flex-row row" *ngFor="let collection of collections" (click)="onAlbumClick(collection)">
+    <span class="col star"
+      [ngStyle]="collection.isFavorite ?
+            {'font-size':'300%', 'color':'yellow'} : {'font-size':'300%','color':'grey'}">
+    &starf;</span>
+    <img crossorigin="anonymous" class="album-art art " src="{{collection.albumArt}}"/>
+    <div class=" col text">{{collection.artistName}}</div>
+    <div class=" col text">{{collection.collectionName}}</div>
+  </div>
+
+
+</div>
