@@ -8,7 +8,7 @@
   <div class="flex-row row" *ngFor="let collection of collections" (click)="onAlbumClick(collection)">
     <span class="col star"
       [ngStyle]="collection.isFavorite ?
-            {'font-size':'300%', 'color':'yellow'} : {'font-size':'300%','color':'grey'}">
+            {'font-size':'200%', 'color':'yellow'} : {'font-size':'200%','color':'grey'}">
     &starf;</span>
     <img crossorigin="anonymous" class="album-art art " src="{{collection.albumArt}}"/>
     <div class=" col text">{{collection.artistName}}</div>
